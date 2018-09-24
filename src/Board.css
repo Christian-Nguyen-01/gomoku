@@ -1,0 +1,29 @@
+.board-inner {
+  position: relative;
+  margin: auto;
+  /* padding: 1px; */
+  display: flex;
+  flex-wrap: wrap;
+  width: 750px;
+  user-select: none;
+  background-image: url('/assets/board2.png');
+  border: 1px solid black;
+  /* If we don't want to manually change the sizing, we can use a transform */
+  transform: scale(.8);
+}
+
+.reset {
+  position: relative;
+  text-align: center;
+  width: 50px;
+  margin: -70px auto 0px auto;
+  border: 1px solid black;
+  user-select: none;
+}
+
+.container {
+  /* display: flex; */
+  justify-content: center;
+  min-width: 770px;
+  margin-top: -70px;
+}
